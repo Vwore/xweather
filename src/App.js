@@ -54,7 +54,7 @@ function App() {
           Search
         </button>
       </div>
-      {loading && <p className="loading">Loading...</p>}
+      {loading && <p className="loading">Loading data..</p>}
       {cityWeather.length !== 0 ? (
         <div className="weather-cards">
           {cityWeather.map((val, index) => (

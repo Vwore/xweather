@@ -48,6 +48,7 @@ function App() {
           }}
           className="inputBox"
           placeholder="Enter city name"
+          type="text"
         ></input>
         <button className="searchButton" onClick={handleSearch}>
           Search
